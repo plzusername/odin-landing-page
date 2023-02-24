@@ -5,6 +5,10 @@
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 
 }
+body{
+    display:flex;
+    flex-direction: column;
+}
 .headerc{
     background-color:#1f2937;
     color:white;
@@ -16,8 +20,8 @@
     display:flex;
     justify-content:space-between;
     padding-bottom:70px;
-    padding-left:90px;
-    padding-right:90px;
+    padding-left:200px;
+    padding-right:200px;
     padding-top:10px;
 }
 ul{
@@ -30,4 +34,33 @@ ul{
 }
 .hl{
     font-size: 25px;
+}
+.mediac{
+    display:flex;
+    justify-content: center;
+    padding:30px 0px;
+    padding-bottom: 150px;
+
+    width:100%
+}
+.imgmodal{
+    width: 400px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: lightgray;
+
+}
+.modal{
+    width: 400px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+.modalbutton{
+    background-color: #3882F6;
+    border-radius: 5px;
+    border:none;
+    width:80px;
+    height:30px;
 }
