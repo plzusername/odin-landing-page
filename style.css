@@ -16,8 +16,8 @@
     display:flex;
     justify-content:space-between;
     padding-bottom:70px;
-    padding-left:70px;
-    padding-right:70px;
+    padding-left:90px;
+    padding-right:90px;
     padding-top:10px;
 }
 ul{
@@ -27,4 +27,7 @@ ul{
 }
 .navbar a{
     text-decoration:none;
+}
+.hl{
+    font-size: 25px;
 }
